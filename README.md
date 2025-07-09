@@ -1,6 +1,7 @@
 # Portfolio 2300 – Quách Thành Long
 
-![Portfolio 2300 Banner](assets/images/portfolio-banner.png) Chào mừng bạn đến với Portfolio 2300, một không gian tương tác giới thiệu về hành trình và năng lực của **Quách Thành Long** trong các lĩnh vực Công nghệ thông tin, Kinh tế Đầu tư, và Phân tích Kinh doanh. Dự án này được thiết kế với giao diện futuristic, lấy cảm hứng từ một trạm vũ trụ, mang đến trải nghiệm khám phá độc đáo.
+!![image](https://github.com/user-attachments/assets/e87d4b2e-9755-4a11-8b71-3f43898b7892)
+Chào mừng bạn đến với Portfolio 2300, một không gian tương tác giới thiệu về hành trình và năng lực của **Quách Thành Long** trong các lĩnh vực Công nghệ thông tin, Kinh tế Đầu tư, và Phân tích Kinh doanh. Dự án này được thiết kế với giao diện futuristic, lấy cảm hứng từ một trạm vũ trụ, mang đến trải nghiệm khám phá độc đáo.
 
 ## 🚀 Giới Thiệu
 
