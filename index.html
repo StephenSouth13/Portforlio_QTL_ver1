@@ -1,0 +1,294 @@
+    <!DOCTYPE html>
+    <html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio 2300 – Quách Thành Long</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="futuristic.css">
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <canvas id="backgroundCanvas"></canvas>
+
+        <div id="terminal-interface">
+            <header id="hero-section" class="section">
+                <div class="container">
+                    <div class="astronaut-avatar">
+                        <img src="assets/images/avatar-astro.png" alt="Quách Thành Long - Astronaut Avatar">
+                    </div>
+                    <h1 data-key="hero-title">Portfolio 2300</h1>
+                    <p class="role" data-key="hero-role">Investor | Web/Game/System Developer | Business Analyst</p>
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#about-section" data-key="nav-about">Tổng Quan</a></li>
+                            <li><a href="#skills-section" data-key="nav-skills">Kỹ Năng</a></li>
+                            <li><a href="#experience-section" data-key="nav-experience">Kinh Nghiệm</a></li>
+                            <li><a href="#projects-section" data-key="nav-projects">Dự Án</a></li>
+                            <li><a href="#achievements-section" data-key="nav-achievements">Thành Tựu</a></li>
+                            <li><a href="#contact-section" data-key="nav-contact">Liên Hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main>
+                <section id="about-section" class="section">
+                    <div class="container">
+                        <h2 data-key="about-title">Tổng Quan</h2>
+                        <p data-key="about-description">Chào mừng đến với Trạm Vũ Trụ Portfolio của Quách Thành Long. Tại đây, bạn sẽ khám phá hành trình đa vũ trụ của một nhà đầu tư, phát triển web/game/hệ thống và chuyên gia phân tích kinh doanh.</p>
+                        <h3 data-key="education-title">Học Vấn</h3>
+                        <ul class="education-list">
+                            <li data-key="edu-investment">Cử nhân Kinh tế Đầu tư – Đại học Kinh tế TP. Hồ Chí Minh (2024–2027)</li>
+                            <li data-key="edu-game-dev">Cử nhân Phát triển Game – VTC Academy (2024–2026)</li>
+                            <li data-key="edu-hr-management">Cử nhân Quản trị Nguồn nhân lực – Đại học Kinh tế TP. Hồ Chí Minh (2021–2024)</li>
+                        </ul>
+                        <h3 data-key="languages-title">Kỹ Năng Ngoại Ngữ</h3>
+                        <ul class="language-list">
+                            <li data-key="lang-english">Tiếng Anh: IELTS 6.0 (2023)</li>
+                            <li data-key="lang-japanese">Tiếng Nhật: JLPT N5</li>
+                            <li data-key="lang-german">Tiếng Đức: Giao tiếp cơ bản (A1)</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section id="skills-section" class="section">
+                    <div class="container">
+                        <h2 data-key="skills-title">Kỹ Năng</h2>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3 data-key="skill-frontend">Front-End</h3>
+                                <ul>
+                                    <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Next.js</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 data-key="skill-backend">Back-End</h3>
+                                <ul>
+                                    <li>Node.js</li><li>PHP</li><li>Python</li><li>C#</li><li>MySQL</li><li>API</li><li>Rust</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 data-key="skill-version-control">Version Control</h3>
+                                <ul>
+                                    <li>Git</li><li>GitHub</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 data-key="skill-tools">Công Cụ</h3>
+                                <ul>
+                                    <li>Figma</li><li>Draw.io</li><li>VSCode</li><li>Postman</li>
+                                </ul>
+                            </div>
+                            <div class="skill-category">
+                                <h3 data-key="skill-game-dev">Phát Triển Game</h3>
+                                <ul>
+                                    <li>Unity</li><li>Godot</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="experience-section" class="section">
+                    <div class="container">
+                        <h2 data-key="experience-title">Kinh Nghiệm Làm Việc</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-msc-it-manager">Trưởng phòng Công nghệ thông tin</h3>
+                                    <p class="company" data-key="exp-msc-it-manager-company">Trung tâm MSC</p>
+                                    <p class="duration" data-key="exp-msc-it-manager-duration">05/2025 – Nay</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-msc-dev-invest">Web Developer & Investment Analyst</h3>
+                                    <p class="company" data-key="exp-msc-dev-invest-company">MSC – Mekong Skill Center</p>
+                                    <p class="duration" data-key="exp-msc-dev-invest-duration">10/2024 – Nay</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-galaxy-advisor">Strategic Advisor</h3>
+                                    <p class="company" data-key="exp-galaxy-advisor-company">Galaxy English Center – Dầu Tiếng</p>
+                                    <p class="duration" data-key="exp-galaxy-advisor-duration">2024</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-statistics-collaborator">Collaborator</h3>
+                                    <p class="company" data-key="exp-statistics-collaborator-company">Chi cục Thống kê Quận 1</p>
+                                    <p class="duration" data-key="exp-statistics-collaborator-duration">04/2024 – 06/2024</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-srun-collaborator">Collaborator</h3>
+                                    <p class="company" data-key="exp-srun-collaborator-company">Srun</p>
+                                    <p class="duration" data-key="exp-srun-collaborator-duration">08/2023 – 12/2023</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-bac-intern">Business Analyst (Thực tập)</h3>
+                                    <p class="company" data-key="exp-bac-intern-company">BAC</p>
+                                    <p class="duration" data-key="exp-bac-intern-duration">03/2023 – 08/2023</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-tutor">Gia sư</h3>
+                                    <p class="company" data-key="exp-tutor-company">Toán, Lý, Anh</p>
+                                    <p class="duration" data-key="exp-tutor-duration">09/2021 – 12/2023</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div>
+                                    <h3 data-key="exp-sales-collaborator">Sales Cộng tác viên</h3>
+                                    <p class="company" data-key="exp-sales-collaborator-company">Full House Club</p>
+                                    <p class="duration" data-key="exp-sales-collaborator-duration">03/2022 – 05/2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects-section" class="section">
+                    <div class="container">
+                        <h2 data-key="projects-title">Dự Án Nổi Bật</h2>
+                        <div class="projects-grid">
+                            <div class="project-item">
+                                <h3 data-key="proj-next-gen-game">Game Unity: The Next Generation</h3>
+                                <p data-key="proj-next-gen-game-role">Leader & Developer (06/2025)</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/game-nextgen.jpg" alt="Game The Next Generation" loading="lazy">
+                                    </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 data-key="proj-wolf-card-game">Game Unity: Wolf Card</h3>
+                                <p data-key="proj-wolf-card-game-role">Leader & Developer (05/2025)</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/game-wolfcard.jpg" alt="Game Wolf Card" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 data-key="proj-it-management-research">Bài nghiên cứu: Tư duy Quản trị cho dân CNTT</h3>
+                                <p data-key="proj-it-management-research-date">(06/2025)</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/research-paper.jpg" alt="IT Management Research" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 data-key="proj-contract-mgmt-software">Phần mềm quản lý hợp đồng lao động</h3>
+                                <p data-key="proj-contract-mgmt-software-role">UI/UX, Flowchart, BA (05/2024)</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/contract-software.jpg" alt="Contract Management Software" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 data-key="proj-free-coding-class">Lớp lập trình cơ bản miễn phí</h3>
+                                <p data-key="proj-free-coding-class-role">Giảng viên C#, C++ (05/2024)</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/coding-class.jpg" alt="Free Coding Class" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="project-item">
+                                <h3 data-key="proj-msc-website">Website giáo dục: msc.edu.vn</h3>
+                                <p data-key="proj-msc-website-role">Leader & Developer</p>
+                                <div class="project-media-placeholder">
+                                    <img src="assets/images/projects/msc-website.jpg" alt="MSC Website" loading="lazy">
+                                </div>
+                            </div>
+                            <a href="https://stephensouth13.github.io/cv-qtl/" target="_blank" class="view-more-link" data-key="proj-view-more">Xem thêm: Dự án của Thành Long</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="achievements-section" class="section">
+                    <div class="container">
+                        <h2 data-key="achievements-title">Thành Tựu & Hoạt Động</h2>
+                        <div class="achievements-grid">
+                            <div class="achievement-category">
+                                <h3 data-key="ach-academic">Thành Tích Học Thuật</h3>
+                                <ul>
+                                    <li data-key="ach-vtc-scholarship">Giải Nhất Học bổng Tài năng VTC Academy – Ngành Phát triển Game (2024)</li>
+                                    <li data-key="ach-bac-top3">Top 3 Dự án Business Analyst – BAC 2024</li>
+                                </ul>
+                            </div>
+                            <div class="achievement-category">
+                                <h3 data-key="ach-sports-community">Thể Thao & Cộng Đồng</h3>
+                                <ul>
+                                    <li data-key="ach-marathon-champion">Vô địch Marathon VSM 2024 – Cự ly 42km</li>
+                                    <li data-key="ach-tanuyen-athletics">Giải Nhì điền kinh Tân Uyên 2025: 800m cá nhân & 400m tiếp sức</li>
+                                    <li data-key="ach-charity-run">Top 9 nam giải chạy Vì đàn em thân yêu 2024</li>
+                                    <li data-key="ach-tanuyen-record">Top 1 kỷ lục chạy dài tại Tân Uyên – Dưới 2 giờ (2024)</li>
+                                    <li data-key="ach-pacer-bd">Marathon Pacer: Bình Dương Half Marathon (1h30 – 21km)</li>
+                                    <li data-key="ach-pacer-dl">Marathon Pacer: Dak Lak Marathon (4h30 – 42km)</li>
+                                    <li data-key="ach-youth-volunteer">Hoạt động cộng đồng: Thanh niên xung kích 2024</li>
+                                    <li data-key="ach-free-coding-class-community">Hoạt động cộng đồng: Lớp dạy lập trình cơ bản miễn phí (2023)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contact-section" class="section">
+                    <div class="container">
+                        <h2 data-key="contact-title">Liên Hệ</h2>
+                        <p data-key="contact-intro">Kết nối với tôi qua các kênh sau:</p>
+                        <div class="contact-info">
+                            <p><strong data-key="contact-phone">Điện thoại:</strong> 0979 137 018</p>
+                            <p><strong data-key="contact-email">Email:</strong> stephensouth1307@gmail.com</p>
+                            <p><strong data-key="contact-blog">Blog:</strong> <a href="https://stephensouth9.wordpress.com" target="_blank">stephensouth9.wordpress.com</a></p>
+                            <p><strong data-key="contact-website">Website CV:</strong> <a href="https://stephensouth13.github.io/cv-qtl/" target="_blank">stephensouth13.github.io/cv-qtl/</a></p>
+                        </div>
+                        <div class="contact-features">
+                            <div class="qr-code-placeholder">
+        <h3 data-key="qr-title">QR Info</h3>
+        <img src="assets/images/QR.png" alt="QR Code ngân hàng" style="width:180px; height:auto; display: block; margin: 0 auto;">
+        </div>
+                            <div class="google-map-placeholder">
+                                <h3 data-key="map-title">Vị Trí</h3>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.65487739502!2d106.68962667468411!3d10.761376089387413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1e2f3d6c1b%3A0x6b772d5c3d4f5a3e!2sHo%20Chi%20Minh%20City%20University%20of%20Economics!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <div id="ai-assistant">
+                <div class="ai-avatar"></div>
+                <div class="ai-chat-bubble">
+                    <p data-key="ai-initial-greeting">Chào mừng, Quách Thành Long đang chờ bạn khám phá hồ sơ!</p>
+                </div>
+                <div class="language-switcher">
+                    <button id="lang-en" data-lang="en">EN</button>
+                    <button id="lang-vi" data-lang="vi">VI</button>
+                </div>
+            </div>
+
+            <button id="backToTopBtn" title="Go to top">▲</button>
+        </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode.js/qrcode.min.js"></script>
+<script src="main.js"></script>
+<script src="ai-assistant.js"></script>
+<script src="lang.js"></script>
+
+<script type="module">
+    // Import các thư viện Three.js từ CDN
+    import * as THREE from 'https://unpkg.com/three@0.165.0/build/three.module.js';
+    import { GLTFLoader } from 'https://unpkg.com/three@0.165.0/examples/jsm/loaders/GLTFLoader.js';
+    import { OrbitControls } from 'https://unpkg.com/three@0.165.0/examples/jsm/controls/OrbitControls.js';
+
+    // Import và khởi tạo scene 3D của chúng ta
+    import('./scene-3d.js')
+        .then(module => module.initThreeScene(THREE, GLTFLoader, OrbitControls))
+        .catch(err => console.error("Lỗi khi tải cảnh 3D:", err));
+</script>
+</body>
+</html>
+
